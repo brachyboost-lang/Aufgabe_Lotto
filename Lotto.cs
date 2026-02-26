@@ -20,6 +20,7 @@ class Lotto
             if (playAgain != "j")
             {
                 Console.WriteLine("Danke fürs Spielen! Auf Wiedersehen!");
+                Console.ReadKey();
                 break;
             }       
         }
