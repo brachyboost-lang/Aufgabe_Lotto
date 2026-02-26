@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Aufgabe_Lotto/1.0.0": {
+        "runtime": {
+          "Aufgabe_Lotto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Aufgabe_Lotto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
