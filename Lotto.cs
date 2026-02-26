@@ -95,10 +95,15 @@ class Lotto
     {
         int hits = userNumbers.Intersect(lottoNumbers).Count();
 
-            // string.Join erspart lottoNumbers[][0], lottoNumbers[1], ... und userNumbers[0], userNumbers[1], ...
+            // string.Join erspart lottoNumbers[0], lottoNumbers[1], ... und userNumbers[0], userNumbers[1], ...
             // trennt die Zahlen mit ", " und gibt sie als String aus
         Console.WriteLine("\nIhre Zahlen:  " + string.Join(", ", userNumbers));
         Console.WriteLine("Gezogene Zahlen: " + string.Join(", ", lottoNumbers));
         Console.WriteLine($"Treffer: {hits}");
+
+        // Array.Clear() setzt alle Elemente des Arrays auf den Standardwert (0 für int) zurück,
+        // damit die alten Zahlen nicht mehr angezeigt werden, wenn der Spieler nochmal spielt
+        Array.Clear(userNumbers, 0, userNumbers.Length);
+        Array.Clear(lottoNumbers, 0, lottoNumbers.Length);
     }
 }

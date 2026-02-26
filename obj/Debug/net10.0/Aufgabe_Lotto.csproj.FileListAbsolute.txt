@@ -12,3 +12,4 @@ G:\C# Projects\VS Code Projekte\Vertiefung\Aufgabe_Lotto\obj\Debug\net10.0\refin
 G:\C# Projects\VS Code Projekte\Vertiefung\Aufgabe_Lotto\obj\Debug\net10.0\Aufgabe_Lotto.pdb
 G:\C# Projects\VS Code Projekte\Vertiefung\Aufgabe_Lotto\obj\Debug\net10.0\Aufgabe_Lotto.genruntimeconfig.cache
 G:\C# Projects\VS Code Projekte\Vertiefung\Aufgabe_Lotto\obj\Debug\net10.0\ref\Aufgabe_Lotto.dll
+G:\C# Projects\VS Code Projekte\Vertiefung\Aufgabe_Lotto\obj\Debug\net10.0\Aufgabe_Lotto.sourcelink.json
